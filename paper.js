@@ -14,7 +14,7 @@ this.x=x;
 this.y=y;
 this.r=r;
 this.body=Bodies.circle(this.x, this.y, (this.r-32)/1 ,options)
-this.image = loadImage("images/paper.png");
+this.image = loadImage("paper.png");
 
 World.add(world, this.body);
 }
