@@ -14,7 +14,7 @@ this.x=x;
 this.y=y;
 this.r=r;
 this.body=Bodies.circle(this.x, this.y, (this.r-32)/1 ,options)
-this.image = loadImage("paper.png");
+this.image = loadImage("images/paper.png");
 
 World.add(world, this.body);
 }
@@ -26,7 +26,7 @@ display()
     translate(paperpos.x, paperpos.y)
     rectMode(CENTER);
     
-    ellipse(0,0,70);
+  
         
     imageMode(CENTER);
     image(this.image,0,0,100,80);
